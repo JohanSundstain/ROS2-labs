@@ -1,0 +1,36 @@
+running egg_info
+creating build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info
+writing build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/PKG-INFO
+writing dependency_links to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/dependency_links.txt
+writing entry points to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/entry_points.txt
+writing requirements to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/requires.txt
+writing top-level names to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/top_level.txt
+writing manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+copying text_to_cmd_vel_pkg/__init__.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+copying text_to_cmd_vel_pkg/text_to_cmd_vel.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+running install
+running install_lib
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+copying /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg/__init__.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+copying /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg/text_to_cmd_vel.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+byte-compiling /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg/text_to_cmd_vel.py to text_to_cmd_vel.cpython-310.pyc
+running install_data
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index/packages
+copying resource/text_to_cmd_vel_pkg -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg
+creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg/launch
+copying launch/three_turtles.launch.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg/launch
+running install_egg_info
+Copying build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info to /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/install.log'

@@ -1,0 +1,38 @@
+[0.538s] Invoking command in '/home/johan/ros2_ws/src/text_to_cmd_vel_pkg': PYTHONPATH=/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/text_to_cmd_vel_pkg build --build-base /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build install --record /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/install.log --single-version-externally-managed install_data
+[0.714s] running egg_info
+[0.714s] creating build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info
+[0.715s] writing build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/PKG-INFO
+[0.715s] writing dependency_links to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/dependency_links.txt
+[0.716s] writing entry points to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/entry_points.txt
+[0.716s] writing requirements to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/requires.txt
+[0.716s] writing top-level names to build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/top_level.txt
+[0.716s] writing manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+[0.717s] reading manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info/SOURCES.txt'
+[0.718s] running build
+[0.718s] running build_py
+[0.718s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build
+[0.719s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib
+[0.719s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+[0.720s] copying text_to_cmd_vel_pkg/__init__.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+[0.720s] copying text_to_cmd_vel_pkg/text_to_cmd_vel.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg
+[0.720s] running install
+[0.720s] running install_lib
+[0.721s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+[0.721s] copying /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg/__init__.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+[0.722s] copying /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build/lib/text_to_cmd_vel_pkg/text_to_cmd_vel.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg
+[0.722s] byte-compiling /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg/__init__.py to __init__.cpython-310.pyc
+[0.723s] byte-compiling /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg/text_to_cmd_vel.py to text_to_cmd_vel.cpython-310.pyc
+[0.723s] running install_data
+[0.723s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index
+[0.724s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index
+[0.724s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index/packages
+[0.725s] copying resource/text_to_cmd_vel_pkg -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/ament_index/resource_index/packages
+[0.725s] copying package.xml -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg
+[0.725s] creating /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg/launch
+[0.726s] copying launch/three_turtles.launch.py -> /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/share/text_to_cmd_vel_pkg/launch
+[0.726s] running install_egg_info
+[0.727s] Copying build/text_to_cmd_vel_pkg/text_to_cmd_vel_pkg.egg-info to /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages/text_to_cmd_vel_pkg-0.0.0-py3.10.egg-info
+[0.728s] running install_scripts
+[0.746s] writing list of installed files to '/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/install.log'
+[0.773s] Invoked command in '/home/johan/ros2_ws/src/text_to_cmd_vel_pkg' returned '0': PYTHONPATH=/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/johan/ros2_ws/src/text_to_cmd_vel_pkg/install/text_to_cmd_vel_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/text_to_cmd_vel_pkg build --build-base /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/build install --record /home/johan/ros2_ws/src/text_to_cmd_vel_pkg/build/text_to_cmd_vel_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,74 @@
+cmake_minimum_required(VERSION 3.8)
+project(turtle_multi_target)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(current_target REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(std_srvs REQUIRED)
+
+add_executable(key_listener src/key_listener.cpp)
+ament_target_dependencies(key_listener
+  rclcpp
+  current_target
+)
+
+
+add_executable(target_switcher src/target_switcher.cpp)
+ament_target_dependencies(target_switcher
+  rclcpp
+  turtlesim
+  geometry_msgs
+  current_target
+  tf2
+  tf2_ros
+  tf2_geometry_msgs
+  std_msgs
+)
+
+add_executable(turtle_controller src/turtle_controller.cpp)
+ament_target_dependencies(turtle_controller
+  rclcpp
+  turtlesim
+  current_target
+  geometry_msgs
+  tf2
+  tf2_ros
+  tf2_geometry_msgs
+  std_msgs
+)
+
+install(TARGETS
+  target_switcher 
+  turtle_controller
+  key_listener
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(DIRECTORY launch rviz
+  DESTINATION share/${PROJECT_NAME}
+)
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
